@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router'
 
 <template>
 
-<footer class="bg-green-800 text-white px-8 py-10 mt-10">
+<footer class="bg-green-800 text-white px-8 py-9  mt-10">
 <div class="flex flex-wrap justify-between gap-8 ">
 
 <div>
@@ -42,19 +42,19 @@ import { RouterLink } from 'vue-router'
     <h3 class="text-yellow-300 font-bold text-lg mb-3">Destination</h3>
     <ul class="space-y-2 text-sm">
 <li>
-    <RouterLink to="/" class="hover:text-yellow-300">Northern Province</RouterLink>
+    <RouterLink to="/North" class="hover:text-yellow-300">Northern Province</RouterLink>
 </li>
 <li>
-    <RouterLink to="/" class="hover:text-yellow-300">Southern Province</RouterLink>
+    <RouterLink to="/Southern" class="hover:text-yellow-300">Southern Province</RouterLink>
 </li>
 <li>
-    <RouterLink to="/" class="hover:text-yellow-300">Western Province</RouterLink>
+    <RouterLink to="/Western" class="hover:text-yellow-300">Western Province</RouterLink>
 </li>
 <li>
-    <RouterLink to="/" class="hover:text-yellow-300">Eastern Province</RouterLink>
+    <RouterLink to="/Eastern" class="hover:text-yellow-300">Eastern Province</RouterLink>
 </li>
 <li>
-    <RouterLink to="/" class="hover:text-yellow-300">Kigali Province</RouterLink>
+    <RouterLink to="/Kigali" class="hover:text-yellow-300">Kigali Province</RouterLink>
 </li>
 
 
@@ -66,7 +66,7 @@ import { RouterLink } from 'vue-router'
 
     <h3 class="text-yellow-300 font-bold text-lg mb-3">Contact us</h3>
     <ul class="space-y-2 text-green-300">
-        <li>isarokellia55@gmail.com</li>
+        <li>isarokellia55gmail.com</li>
         <li>0732457394</li>
         <li> Kagugu,Rwanda</li>
     </ul>
@@ -74,7 +74,7 @@ import { RouterLink } from 'vue-router'
 
 <!--This is copyright-->
 <div class="w-full text-center mt-8 text-sm text-green-300">
-    &copy; 2024 Tembera URWANDA. All rights reserved.
+    &copy; 2026 Tembera URWANDA. All rights reserved.
 </div>
 </div>
 
