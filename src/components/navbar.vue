@@ -19,20 +19,20 @@ const destinationOpen = ref(false)
             <li><router-link to="/services" class="hover:text-yellow-300">Services</router-link></li>
 
             <li class="relative">
-                <a
-                  href="/gallery"
-                  @click.prevent="galleryOpen = !galleryOpen"
+                <button
+                  type="button"
+                  @click="galleryOpen = !galleryOpen"
                   class="hover:text-yellow-300"
                 >
                   Gallery <span>v</span>
-                </a>
+                </button>
 
                 <ul
                   v-if="galleryOpen"
                   class="absolute left-0 mt-2 w-40 bg-green-800 text-white rounded-md shadow-lg z-50"
                 >
-                    <li><a href="#" class="block px-4 py-2 hover:bg-green-700">Images</a></li>
-                    <li><a href="#" class="block px-4 py-2 hover:bg-green-700">Videos</a></li>
+                    <li><button type="button" class="block w-full text-left px-4 py-2 hover:bg-green-700">Images</button></li>
+                    <li><button type="button" class="block w-full text-left px-4 py-2 hover:bg-green-700">Videos</button></li>
                 </ul>
             </li>
 
