@@ -8,7 +8,7 @@ const destinationOpen = ref(false)
 <template>
     <nav class="bg-green-800 text-white px-8 py-4 flex items-center justify-between shadow-lg w-full">
 
-        <img src="../assets/images/sos village.PNG" class="h-10 w-auto">
+        <img src="  ../assets/images/sos village.png" class="h-10 w-auto">
 
         <ul class="flex gap-8 text-sm font-medium w-full px-5 justify-end">
 
