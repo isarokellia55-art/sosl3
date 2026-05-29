@@ -49,15 +49,15 @@ const destinationOpen = ref(false)
                   v-if="destinationOpen"
                   class="absolute left-0 mt-2 w-40 bg-green-800 text-white rounded-md shadow-lg z-50"
                 >
-                    <li><a href="/Kigali" class="block px-4 py-2 hover:bg-green-700">Kigali</a></li>
-                    <li><a href="/South" class="block px-4 py-2 hover:bg-green-700">South</a></li>
-                    <li><a href="/West" class="block px-4 py-2 hover:bg-green-700">West</a></li>
-                    <li><a href="/North" class="block px-4 py-2 hover:bg-green-700">North</a></li>
-                    <li><a href="/East" class="block px-4 py-2 hover:bg-green-700">East</a></li>
+                    <li><router-link to="/Kigali" class="block px-4 py-2 hover:bg-green-700">Kigali</router-link></li>
+                    <li><router-link to="/South" class="block px-4 py-2 hover:bg-green-700">South</router-link></li>
+                    <li><router-link to="/West" class="block px-4 py-2 hover:bg-green-700">West</router-link></li>
+                    <li><router-link to="/North" class="block px-4 py-2 hover:bg-green-700">North</router-link></li>
+                    <li><router-link to="/East" class="block px-4 py-2 hover:bg-green-700">East</router-link></li>
                 </ul>
             </li>
 
-            <li><a href="/contact" class="hover:text-yellow-300">Contact</a></li>
+            <li><router-link to="/contact" class="hover:text-yellow-300">Contact</router-link></li>
 
         </ul>
     </nav>
